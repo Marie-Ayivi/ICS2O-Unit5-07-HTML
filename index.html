@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unit5-07</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h2>Insert the numbers you want to multiply in the texboxes below</h2>
+    <p>Insert your biggest number below</p>
+    <input type="text" id="textbox1">
+    <p>Insert your smallest number below</p>
+    <input type="text" id="textbox2">
+    <button id="button">Answer</button>
+    <p id="demo"></p>
+  </body>
+  <script>
+  document.getElementById("button").addEventListener
+  ("click",myFunction);
+  let number1;
+  let number2;
+  let answer;
+  function myFunction() {
+  number1=document.getElementById("textbox1").value;
+  number2=document.getElementById("textbox2").value;
+  var counter=1;
+  while (counter<=number1) {
+   number2+number2;
+   counter++;
+  }
+  
+  }
+  </script>
+</html>
