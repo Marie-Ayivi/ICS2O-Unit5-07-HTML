@@ -11,7 +11,7 @@
     <p>Insert your smallest number below</p>
     <input type="text" id="textbox2">
     <button id="button">Answer</button>
-    <p id="demo"></p>
+    <p id="output"></p>
   </body>
   <script>
   document.getElementById("button").addEventListener
@@ -24,10 +24,10 @@
   number2=document.getElementById("textbox2").value;
   var counter=1;
   while (counter<=number1) {
-   number2+number2;
+   answer+=number2;
    counter++;
   }
-  
+  document.getElementById("output").innerHTML=answer;
   }
   </script>
 </html>
